@@ -4,6 +4,7 @@ import random
 
 # Put your code here
 def guessing_game():
+    user_name = input("Hello player! What's your name?")
     random_number=random.randint(1,100)
     print(random_number)
     user_guess=None
@@ -17,6 +18,6 @@ def guessing_game():
             print("Too low")
             num_guesses +=1
         else: 
-            print(f'congratulate player number guess: {num_guesses}')
+            print(f'congratulations {user_name} number guess: {num_guesses}')
 
 guessing_game()
