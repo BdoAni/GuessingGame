@@ -1,7 +1,7 @@
 import random
 """A number-guessing game."""
-# print('hi')
-# Put your code here
+print(f"hello, are you ready for the game!")
+
 def guessing_game():
     user_name = input("Howdy, what's your name? ")
     while len(user_name) < 2:
